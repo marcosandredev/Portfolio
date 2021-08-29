@@ -20,7 +20,6 @@ const MainNavigation = () => {
 
       <nav className={s.desktop}>
         <NavLinks />
-        <BtnToggleTheme />
       </nav>
 
       <Media query={{ maxWidth: 768 }}>
