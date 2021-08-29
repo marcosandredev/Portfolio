@@ -3,6 +3,9 @@ import {
   DiJavascript1,
   DiReact,
   DiGit,
+  DiDotnet,
+  DiHtml5,
+  DiCss3
 } from 'react-icons/di';
 import {
   SiRedux,
@@ -21,7 +24,16 @@ const TechSkills = () => {
         <SiRedux />
       </li>
       <li className={s.techIcon}>
+        <DiDotnet />
+      </li>
+      <li className={s.techIcon}>
         <DiGit />
+      </li>
+      <li className={s.techIcon}>
+        <DiHtml5 />
+      </li>
+      <li className={s.techIcon}>
+        <DiCss3 />
       </li>
     </ul>
   );

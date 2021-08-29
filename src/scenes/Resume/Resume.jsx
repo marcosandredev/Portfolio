@@ -11,7 +11,7 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
-  'https://raw.githubusercontent.com/vsnaichuk/vsnaichuk/master/CV.pdf';
+  'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/12f5819f-563c-49c6-ba87-ce4fa37b607e/Curriculo.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210829%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210829T025854Z&X-Amz-Expires=86400&X-Amz-Signature=556dc91288553f2c4b1946a3b932da75bb4658381ba82cf5ef88a6aea08ae70c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Curriculo.pdf%22';
 
 const Resume = () => {
   const pdfWrapper = useRef(null);
@@ -55,7 +55,6 @@ const Resume = () => {
         >
           <DownloadIcon fill="#fff" />
           <span className={s.downloadText}> download </span>
-          <span className={s.filename}>.pdf</span>
         </Button>
 
         <div className={s.pdfWrapper} ref={pdfWrapper}>

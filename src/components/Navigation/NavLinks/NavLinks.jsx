@@ -13,7 +13,7 @@ const NavLinks = () => {
       <li>
         <NavLink to={routes.HOME} activeClassName={s.active} exact>
           <AiOutlineHome />
-          Home
+          Início
         </NavLink>
       </li>
 

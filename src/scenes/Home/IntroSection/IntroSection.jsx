@@ -1,13 +1,10 @@
 import s from './IntroSection.module.scss';
-import avatar from '../../../assets/avatar.svg';
 import { AiFillGithub } from 'react-icons/ai';
 import {
-  FaFacebookSquare,
+  FaTwitterSquare,
   FaLinkedinIn,
-  FaTelegramPlane,
+  FaInstagramSquare,
 } from 'react-icons/fa';
-import Tilt from 'react-parallax-tilt';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const IntroSection = () => {
   return (
@@ -54,9 +51,9 @@ const IntroSection = () => {
           </div>
         </div>
 
-        <Tilt trackOnWindow={true}>
+        {/* <Tilt trackOnWindow={true}>
           <LazyLoadImage alt="avatar" effect="blur" src={avatar} />
-        </Tilt>
+        </Tilt> */}
       </div>
 
       <div className={s.introSocial}>
@@ -82,7 +79,7 @@ const IntroSection = () => {
               rel="noreferrer"
               className={s.socialIcon}
             >
-              <FaFacebookSquare />
+              <FaTwitterSquare />
             </a>
           </li>
           <li className={s.socialLink}>
@@ -92,7 +89,7 @@ const IntroSection = () => {
               rel="noreferrer"
               className={s.socialIcon}
             >
-              <FaTelegramPlane />
+              <FaInstagramSquare />
             </a>
           </li>
           <li className={s.socialLink}>

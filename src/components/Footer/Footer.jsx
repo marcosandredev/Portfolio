@@ -1,9 +1,9 @@
 import s from './Footer.module.scss';
 import { AiFillGithub } from 'react-icons/ai';
 import {
-  FaFacebookSquare,
+  FaTwitterSquare,
   FaLinkedinIn,
-  FaTelegramPlane,
+  FaInstagramSquare,
 } from 'react-icons/fa';
 
 const Footer = () => {
@@ -38,7 +38,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaFacebookSquare />
+                <FaTwitterSquare />
               </a>
             </li>
             <li>
@@ -47,7 +47,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaTelegramPlane />
+                <FaInstagramSquare />
               </a>
             </li>
             <li>
